@@ -3,15 +3,20 @@ public class TouristArrayDemo {
     public static void main(String[] args) {
 
         String[] places = {
-            "Taj Mahal", "Mysore Palace", "Hampi", "Goa Beaches", "Kerala Backwaters",
-            "Jaipur", "Udaipur", "Manali", "Shimla", "Leh Ladakh",
-            "Varanasi", "Rishikesh", "Amritsar", "Darjeeling", "Ooty",
-            "Coorg", "Andaman Islands", "Ellora Caves", "Ajanta Caves", "Khajuraho",
-            "Golden Temple", "Red Fort", "Qutub Minar", "Gateway of India", "Charminar",
-            "Meenakshi Temple", "Brihadeeswara Temple", "Sundarbans", "Kaziranga National Park", "Jim Corbett National Park"
+                "Taj Mahal", "Mysore Palace", "Hampi", "Goa Beaches", "Kerala Backwaters",
+                "Jaipur", "Udaipur", "Manali", "Shimla", "Leh Ladakh",
+                "Varanasi", "Rishikesh", "Amritsar", "Darjeeling", "Ooty",
+                "Coorg", "Andaman Islands", "Ellora Caves", "Ajanta Caves", "Khajuraho",
+                "Golden Temple", "Red Fort", "Qutub Minar", "Gateway of India", "Charminar",
+                "Meenakshi Temple", "Brihadeeswara Temple", "Sundarbans", "Kaziranga National Park",
+                "Jim Corbett National Park"
         };
 
         // Print all
+
+        // int places =cars.length;
+        // System.out.println("cars are : "+size);
+        
         System.out.println("Tourist Places:");
         for (int index = 0; index < places.length; index++) {
             System.out.println(places[index]);

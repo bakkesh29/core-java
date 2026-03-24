@@ -8,6 +8,8 @@ class LipstickArray {
         };
 
         // Print all
+        // int size =lipstick.length;
+        // System.out.println("cars are : "+size);
         for (int index = 0; index < lipsticks.length; index++) {
             System.out.println(lipsticks[index]);
         }
@@ -28,6 +30,6 @@ class LipstickArray {
 
         // Exception demo
         System.out.println("\nException:");
-        System.out.println(lipsticks[10]); // ❌ error
+        System.out.println(lipsticks[10]); // error
     }
 }

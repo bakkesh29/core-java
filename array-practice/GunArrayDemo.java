@@ -12,6 +12,10 @@ class GunArrayDemo {
         };
 
         // Print all
+
+         // int size =guns.length;
+        // System.out.println("cars are : "+size);
+        
         for (int index = 0; index < guns.length; index++) {
             System.out.println(guns[index]);
         }
@@ -32,6 +36,6 @@ class GunArrayDemo {
 
         // Exception demo
         System.out.println("\nException:");
-        System.out.println(guns[30]); // ❌ error
+        System.out.println(guns[30]); //  error
     }
 }

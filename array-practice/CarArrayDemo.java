@@ -11,6 +11,10 @@ public class CarArrayDemo {
         };
 
         // Print all
+
+        // int size =cars.length;
+        // System.out.println("cars are : "+size); 
+        
         System.out.println("Car Models:");
         for (int index = 0; index < cars.length; index++) {
             System.out.println(cars[index]);
@@ -33,6 +37,6 @@ public class CarArrayDemo {
 
         // Exception demo
         System.out.println("\nException:");
-        System.out.println(cars[25]); // ❌ error
+        System.out.println(cars[25]); // error
     }
 }
