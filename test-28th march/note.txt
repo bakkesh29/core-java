@@ -1,0 +1,229 @@
+test assesement -1  date:28 mar 2026
+
+1) java is the programming language and it s a platform independent 
+it has the 10 features 
+ secure 
+ platform indepence 
+ portable
+ distrubuted
+ dynamic
+ high performace 
+ robust
+ multi threaded 
+ architerurl netural
+ object oriented 
+
+ java is platform independent because it has it has jvm because it can run .class file run in any os,harware
+ java is the programming language that can  wirte once and run anywhere 
+
+
+ 2)Architecture of jdk
+ 
+ ---------------------------------------
+ jdk(java development kit)
+  =jre + development kits 
+ ----------------------------------------
+ jre (java runtime environment)
+  =jvm+ libraries
+ ----------------------------------------
+  jvm (java virtual machine )
+  =executes the byte code into machine code 
+  ----------------------------------------  
+       jit (just in time)
+       it executes the mutiple condition again and again
+  ----------------------------------------------------
+  
+  jdk is the java development kit that ability to build java enviroment  is used for develop and run the program 
+  it has development kit - to create a java program
+  it has jre = it there to run java programs
+  compiler - javac 
+  document generator - javadoc
+  acrcehive program - jar
+  load the classes
+  interpert the code line by line
+  
+  
+  
+  3)JVM java virtual machine 
+   java virutual machine is inside the jre 
+   it will run the .class file and generate binary code 
+
+   load class->verfies the bytcode->interpert->runtime ->harware
+
+   load class
+   it will load the .class file 
+   it will create a objects in heap memory
+
+    linking 
+    it will verifes the byte code
+    it will create a refrences  values into actual values 
+    it will have to define in own terms 
+
+    interprit
+    it will take the static variable intiales and execute line by line execution
+
+
+    jvm execution it will have the having
+    executing .class files 
+    line by line
+    if any methods are repeating again and again it will be passed into java just in time jit.
+
+  4)
+  write once run anywhere 
+  it uses the main .class file that can be executable in any operating system(windows , mac ,linux)
+  and any object which has jvm . 
+  source code file -> .java file first convert  into byte code (that by using javac )
+  .class file ->byte code is runed by jvm that can be understandable in any os
+  jvm->interprted line by bline the code 
+  .class can be runned in any os 
+
+
+    5)
+    byte code  in java 
+    byte code is generated from compiler - javac 
+    byte code will be inside .class file
+    by .java files will be compiled and  produce .class file 
+    the both javac and java are inside the bin folder
+    bytcode is a language which will executed on compile time 
+
+    6)
+    data type- 
+    anything which can be able to declared a variabels like numbers , folating point and characters we will use data type
+    data types can be classied into 2 type:
+     primitive
+     non primitive 
+    
+    primitive data types:
+    for whole number :int , byte ,short , long 
+    for decimal numbers : float , double
+    for alpha numberic values  : char, string
+     
+     non primitive data type 
+     array
+     strings
+     class names
+     objects
+
+     examples 
+     primitive 
+        int ball = 10;
+
+    non primitive 
+        string[] array = {}
+
+     
+7)
+    defaul values
+    in the stack there will be intialzation of object and the default vaules will be
+    the reference variables ponting to instance and copy the vaule and the adress adre stores in contant pool 
+    it will invovke main method and return the default values
+    it is define in static key word
+    for primitive that will be pointing to 0
+    for non primitives it will reutn as null
+
+    default example:
+        class default(){
+            int bakkesh;
+        }
+        public static void main (String[]args ){
+            default.runner= new default();
+            system.out.println(" values is "+value)
+        }
+
+
+8) variables and differnce betwwen static and local variables 
+    VARIABLES   are used to store the reference values 
+    it is used to intialize and declare the method
+    and also used for make  parameters , instances, class variables
+
+    types of variables :
+    static (instance variabels)
+    non static (class name)
+    local variables - inside a block of code 
+    parameters - inside method it is 
+
+    static - is an instance variable that can be 
+     eg: 
+     static int rate;
+     class Car {
+        //created a instance
+        static int rate;
+     }
+     public static void main (String[] args){
+        //inoving it 
+        Car runner= new Car();
+        System.out.println("runner : " +runner);
+     }
+
+     non static is name as class name 
+     class Human(){
+        char HumanBeing = 'a';
+     }
+     public static void main (String[] args){
+        Human.
+     }
+
+9)static methods   is a class names 
+ it belong to objects 
+
+    class Runner{
+        static int pushing= 1;
+    }
+    public static void main (String[]args){
+        int ram = Runner.pushing();
+        System.out.println("static variable : " +ram);
+    }
+
+
+
+
+
+
+
+10)shop keepper program 
+    class Sales {
+    public static void main(String[] values) {
+        //array , values 
+        //declare and inzialze
+        int[] sales = {100, 200, 150, 300, 250, 400, 350};
+         int total = 0;
+        int max = sales[0];
+        int day = 0;
+        //for loop for sales
+        for (int i = 0; i < sales.length; i++) {
+            total += sales[i];
+            if (sales[i] > max) {
+                max = sales[i];
+                day = i;
+            }     
+            }
+        //print statment
+        System.out.println("Total Sales:  " + total);
+        System.out.println("Highest Sale: " + max + " on day " + (day + 1));
+    }
+}
+
+
+        
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
