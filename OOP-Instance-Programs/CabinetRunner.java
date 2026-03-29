@@ -69,7 +69,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + bedroomCabinet.shape);
         System.out.println("Finish     : " + bedroomCabinet.finish);
         System.out.println("Warranty   : " + bedroomCabinet.warranty);
-        System.out.println();
+       System.out.println("-------------------------------");
 
         // kitchenCabinet
         System.out.println("Kitchen Cabinet:");
@@ -83,7 +83,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + kitchenCabinet.shape);
         System.out.println("Finish     : " + kitchenCabinet.finish);
         System.out.println("Warranty   : " + kitchenCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // officeCabinet
         System.out.println("Office Cabinet:");
@@ -97,7 +97,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + officeCabinet.shape);
         System.out.println("Finish     : " + officeCabinet.finish);
         System.out.println("Warranty   : " + officeCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // hallCabinet
         System.out.println("Hall Cabinet:");
@@ -111,7 +111,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + hallCabinet.shape);
         System.out.println("Finish     : " + hallCabinet.finish);
         System.out.println("Warranty   : " + hallCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // studyCabinet
         System.out.println("Study Cabinet:");
@@ -125,7 +125,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + studyCabinet.shape);
         System.out.println("Finish     : " + studyCabinet.finish);
         System.out.println("Warranty   : " + studyCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // storageCabinet
         System.out.println("Storage Cabinet:");
@@ -139,7 +139,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + storageCabinet.shape);
         System.out.println("Finish     : " + storageCabinet.finish);
         System.out.println("Warranty   : " + storageCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // garageCabinet
         System.out.println("Garage Cabinet:");
@@ -153,7 +153,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + garageCabinet.shape);
         System.out.println("Finish     : " + garageCabinet.finish);
         System.out.println("Warranty   : " + garageCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // wardrobeCabinet
         System.out.println("Wardrobe Cabinet:");
@@ -167,7 +167,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + wardrobeCabinet.shape);
         System.out.println("Finish     : " + wardrobeCabinet.finish);
         System.out.println("Warranty   : " + wardrobeCabinet.warranty);
-        System.out.println();
+      System.out.println("-------------------------------");
 
         // displayCabinet
         System.out.println("Display Cabinet:");
@@ -181,7 +181,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + displayCabinet.shape);
         System.out.println("Finish     : " + displayCabinet.finish);
         System.out.println("Warranty   : " + displayCabinet.warranty);
-        System.out.println();
+    System.out.println("-------------------------------");
 
         // gamingCabinet
         System.out.println("Gaming Cabinet:");
@@ -195,7 +195,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + gamingCabinet.shape);
         System.out.println("Finish     : " + gamingCabinet.finish);
         System.out.println("Warranty   : " + gamingCabinet.warranty);
-        System.out.println();
+     System.out.println("-------------------------------");
 
         // Initialize remaining 10 variables using reference
         // Updating values
@@ -335,7 +335,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + bedroomCabinet.shape);
         System.out.println("Finish     : " + bedroomCabinet.finish);
         System.out.println("Warranty   : " + bedroomCabinet.warranty);
-        System.out.println();
+       System.out.println("-------------------------------");
 
         // kitchenCabinet
         System.out.println("Kitchen Cabinet:");
@@ -349,7 +349,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + kitchenCabinet.shape);
         System.out.println("Finish     : " + kitchenCabinet.finish);
         System.out.println("Warranty   : " + kitchenCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // officeCabinet
         System.out.println("Office Cabinet:");
@@ -363,7 +363,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + officeCabinet.shape);
         System.out.println("Finish     : " + officeCabinet.finish);
         System.out.println("Warranty   : " + officeCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // hallCabinet
         System.out.println("Hall Cabinet:");
@@ -377,7 +377,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + hallCabinet.shape);
         System.out.println("Finish     : " + hallCabinet.finish);
         System.out.println("Warranty   : " + hallCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // studyCabinet
         System.out.println("Study Cabinet:");
@@ -391,7 +391,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + studyCabinet.shape);
         System.out.println("Finish     : " + studyCabinet.finish);
         System.out.println("Warranty   : " + studyCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
         // storageCabinet
         System.out.println("Storage Cabinet:");
@@ -405,7 +405,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + storageCabinet.shape);
         System.out.println("Finish     : " + storageCabinet.finish);
         System.out.println("Warranty   : " + storageCabinet.warranty);
-        System.out.println();
+       System.out.println("-------------------------------");
 
         // garageCabinet
         System.out.println("Garage Cabinet:");
@@ -419,7 +419,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + garageCabinet.shape);
         System.out.println("Finish     : " + garageCabinet.finish);
         System.out.println("Warranty   : " + garageCabinet.warranty);
-        System.out.println();
+ System.out.println("-------------------------------");
 
         // wardrobeCabinet
         System.out.println("Wardrobe Cabinet:");
@@ -433,7 +433,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + wardrobeCabinet.shape);
         System.out.println("Finish     : " + wardrobeCabinet.finish);
         System.out.println("Warranty   : " + wardrobeCabinet.warranty);
-        System.out.println();
+       System.out.println("-------------------------------");
 
         // displayCabinet
         System.out.println("Display Cabinet:");
@@ -447,7 +447,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + displayCabinet.shape);
         System.out.println("Finish     : " + displayCabinet.finish);
         System.out.println("Warranty   : " + displayCabinet.warranty);
-        System.out.println();
+       System.out.println("-------------------------------");
 
         // gamingCabinet
         System.out.println("Gaming Cabinet:");
@@ -461,7 +461,7 @@ class CabinetRunner {
         System.out.println("Shape      : " + gamingCabinet.shape);
         System.out.println("Finish     : " + gamingCabinet.finish);
         System.out.println("Warranty   : " + gamingCabinet.warranty);
-        System.out.println();
+        System.out.println("-------------------------------");
 
     }
 }
