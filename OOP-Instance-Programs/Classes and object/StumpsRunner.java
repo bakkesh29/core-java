@@ -31,7 +31,9 @@ class StumpsRunner {
         Stumps stumps24 = new Stumps(27.5, "Round", 3.4, 2.0, "Ground", "Practice", "Puma", 450, "Medium", false);
         Stumps stumps25 = new Stumps(28.5, "Cylindrical", 3.7, 2.3, "Pitch", "Match", "Adidas", 700, "High", true);
 
-        // Display all
+        // Displaying all
+        //display(); 
+        // calling the method
         stumps1.display();
         stumps2.display();
         stumps3.display();
