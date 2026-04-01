@@ -10,7 +10,7 @@ class Stumps {
     String durability;
     boolean lights;
 
-    // Parameterized Constructor using this keyword
+    // ParameterizedConstructor 
     Stumps(double height, String shape, double diameter, double width,
            String placement, String type, String brand,
            double cost, String durability, boolean lights) {
@@ -27,7 +27,8 @@ class Stumps {
         this.lights = lights;
     }
 
-    // Display method
+    // display it used to print 
+    //void it doesnt return any value
     void display() {
         System.out.println("Height: " + height);
         System.out.println("Shape: " + shape);
