@@ -10,10 +10,10 @@ class SoftDrinkRunner {
         SoftDrink s3 = new SoftDrink("Pepsi", "Cola", 40);
         s3.show();
 
-        SoftDrink s4 = new SoftDrink("Fanta", "Orange", 50, 2);
+        SoftDrink s4 = new SoftDrink("Sprite", "Lemon", 35, "500ml");
         s4.show();
 
-        SoftDrink s5 = new SoftDrink(s4);
+        SoftDrink s5 = new SoftDrink("Fanta", "Orange", 45, "1L", 6);
         s5.show();
     }
 }
