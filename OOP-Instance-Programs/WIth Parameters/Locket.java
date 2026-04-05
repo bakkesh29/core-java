@@ -3,39 +3,45 @@ class Locket {
     String brand;
     String material;
     double price;
-    String color;
+    String design;
+    int quantity;
 
-    // no parameters
     Locket() {
         System.out.println("Default Constructor");
     }
 
-    //2 parameters
     Locket(String brand, String material) {
         this.brand = brand;
         this.material = material;
     }
 
-    //3 parameters
     Locket(String brand, String material, double price) {
         this.brand = brand;
         this.material = material;
         this.price = price;
     }
 
-    // 4 parameters
-    Locket(String brand, String material, double price, String color) {
+    Locket(String brand, String material, double price, String design) {
         this.brand = brand;
         this.material = material;
         this.price = price;
-        this.color = color;
+        this.design = design;
     }
-    // Non-static method
+
+    Locket(String brand, String material, double price, String design, int quantity) {
+        this.brand = brand;
+        this.material = material;
+        this.price = price;
+        this.design = design;
+        this.quantity = quantity;
+    }
+
     void show() {
         System.out.println("Brand: " + brand);
         System.out.println("Material: " + material);
         System.out.println("Price: " + price);
-        System.out.println("Color: " + color);
+        System.out.println("Design: " + design);
+        System.out.println("Quantity: " + quantity);
         System.out.println("------------------");
     }
 }
