@@ -3,7 +3,8 @@ class WindShield {
     String brand;
     String material;
     double price;
-    String size;
+    String vehicleType;
+    int quantity;
 
     WindShield() {
         System.out.println("Default Constructor");
@@ -20,25 +21,27 @@ class WindShield {
         this.price = price;
     }
 
-    WindShield(String brand, String material, double price, String size) {
+    WindShield(String brand, String material, double price, String vehicleType) {
         this.brand = brand;
         this.material = material;
         this.price = price;
-        this.size = size;
+        this.vehicleType = vehicleType;
     }
 
-    WindShield(WindShield ref) {
-        this.brand = ref.brand;
-        this.material = ref.material;
-        this.price = ref.price;
-        this.size = ref.size;
+    WindShield(String brand, String material, double price, String vehicleType, int quantity) {
+        this.brand = brand;
+        this.material = material;
+        this.price = price;
+        this.vehicleType = vehicleType;
+        this.quantity = quantity;
     }
 
     void show() {
         System.out.println("Brand: " + brand);
         System.out.println("Material: " + material);
         System.out.println("Price: " + price);
-        System.out.println("Size: " + size);
+        System.out.println("Vehicle Type: " + vehicleType);
+        System.out.println("Quantity: " + quantity);
         System.out.println("------------------");
     }
 }
