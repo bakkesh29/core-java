@@ -4,16 +4,16 @@ class StampRunner {
         Stamp s1 = new Stamp();
         s1.show();
 
-        Stamp s2 = new Stamp("Camlin", "Blue");
+        Stamp s2 = new Stamp("Camlin", "Office");
         s2.show();
 
-        Stamp s3 = new Stamp("Doms", "Red", 150);
+        Stamp s3 = new Stamp("Doms", "Rubber", 120);
         s3.show();
 
-        Stamp s4 = new Stamp("Faber", "Black", 200, "Rubber");
+        Stamp s4 = new Stamp("Faber", "Self Ink", 250, "Blue");
         s4.show();
 
-        Stamp s5 = new Stamp(s4);
+        Stamp s5 = new Stamp("Classmate", "Office", 300, "Black", 5);
         s5.show();
     }
 }
