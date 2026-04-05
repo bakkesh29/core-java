@@ -1,43 +1,47 @@
 class Specs {
 
     String brand;
-    String frameMaterial;
+    String frameType;
     double price;
     String color;
+    int quantity;
 
-    // Constructor 1
     Specs() {
         System.out.println("Default Constructor");
     }
 
-    // Constructor 2
-    Specs(String brand, String frameMaterial) {
+    Specs(String brand, String frameType) {
         this.brand = brand;
-        this.frameMaterial = frameMaterial;
+        this.frameType = frameType;
     }
 
-    // Constructor 3
-    Specs(String brand, String frameMaterial, double price) {
+    Specs(String brand, String frameType, double price) {
         this.brand = brand;
-        this.frameMaterial = frameMaterial;
+        this.frameType = frameType;
         this.price = price;
     }
 
-    // Constructor 4
-    Specs(String brand, String frameMaterial, double price, String color) {
+    Specs(String brand, String frameType, double price, String color) {
         this.brand = brand;
-        this.frameMaterial = frameMaterial;
+        this.frameType = frameType;
         this.price = price;
         this.color = color;
     }
 
-    
+    Specs(String brand, String frameType, double price, String color, int quantity) {
+        this.brand = brand;
+        this.frameType = frameType;
+        this.price = price;
+        this.color = color;
+        this.quantity = quantity;
+    }
 
     void show() {
         System.out.println("Brand: " + brand);
-        System.out.println("Frame Material: " + frameMaterial);
+        System.out.println("Frame Type: " + frameType);
         System.out.println("Price: " + price);
         System.out.println("Color: " + color);
+        System.out.println("Quantity: " + quantity);
         System.out.println("------------------");
     }
 }
