@@ -1,44 +1,47 @@
 class Umbrella {
 
     String brand;
-    String color;
+    String type;
     double price;
-    String size;
+    String color;
+    int quantity;
 
     Umbrella() {
         System.out.println("Default Constructor");
     }
 
-    Umbrella(String brand, String color) {
+    Umbrella(String brand, String type) {
         this.brand = brand;
-        this.color = color;
+        this.type = type;
     }
 
-    Umbrella(String brand, String color, double price) {
+    Umbrella(String brand, String type, double price) {
         this.brand = brand;
-        this.color = color;
+        this.type = type;
         this.price = price;
     }
 
-    Umbrella(String brand, String color, double price, String size) {
+    Umbrella(String brand, String type, double price, String color) {
         this.brand = brand;
-        this.color = color;
+        this.type = type;
         this.price = price;
-        this.size = size;
+        this.color = color;
     }
 
-    Umbrella(Umbrella ref) {
-        this.brand = ref.brand;
-        this.color = ref.color;
-        this.price = ref.price;
-        this.size = ref.size;
+    Umbrella(String brand, String type, double price, String color, int quantity) {
+        this.brand = brand;
+        this.type = type;
+        this.price = price;
+        this.color = color;
+        this.quantity = quantity;
     }
 
     void show() {
         System.out.println("Brand: " + brand);
-        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
         System.out.println("Price: " + price);
-        System.out.println("Size: " + size);
+        System.out.println("Color: " + color);
+        System.out.println("Quantity: " + quantity);
         System.out.println("------------------");
     }
 }
