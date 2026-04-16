@@ -1,14 +1,14 @@
-class WaterMelonStore {
+class SpaceShipStore {
 
-    WaterMelon[] melonArray = new WaterMelon[20];
+    SpaceShip[] shipArray = new SpaceShip[20];
     int index = 0;
 
-    void store(WaterMelon melon) {
+    void store(SpaceShip ship) {
 
-        if (melon != null) {
+        if (ship != null) {
 
-            if (index < melonArray.length) {
-                melonArray[index] = melon;
+            if (index < shipArray.length) {
+                shipArray[index] = ship;
                 System.out.println("Stored at index: " + index);
                 index++;
             } else {
@@ -16,7 +16,7 @@ class WaterMelonStore {
             }
 
         } else {
-            System.out.println("Invalid input: WaterMelon cannot be null");
+            System.out.println("Invalid input: SpaceShip cannot be null");
         }
     }
 
@@ -24,9 +24,9 @@ class WaterMelonStore {
 
         boolean isAvailable = false;
 
-        System.out.println("\n----------List of watermelon----------\n");
+        System.out.println("\n----------List of SpaceShips----------\n");
 
-        for (WaterMelon item : melonArray) {
+        for (SpaceShip item : shipArray) {
             if (item != null) {
                 item.show();
                 System.out.println("----------------------------------");
@@ -35,15 +35,15 @@ class WaterMelonStore {
         }
 
         if (!isAvailable) {
-            System.out.println("No watermelons available to display");
+            System.out.println("No spaceships available to display");
         }
 
         System.out.println("\n-------------------\n");
     }
 
-    void update(WaterMelon oldMelon, WaterMelon newMelon) {
+    void update(SpaceShip oldShip, SpaceShip newShip) {
 
-        if (oldMelon == null && newMelon == null) {
+        if (oldShip == null && newShip == null) {
             System.out.println("Update failed: values cannot be null");
             return;
         }
@@ -52,19 +52,19 @@ class WaterMelonStore {
 
         System.out.println("\n---------------update-------------\n");
 
-        for (int i = 0; i < melonArray.length; i++) {
+        for (int i = 0; i < shipArray.length; i++) {
 
-            if (melonArray[i] == oldMelon) {
+            if (shipArray[i] == oldShip) {
 
                 System.out.println("Replaced at position: " + (i + 1));
 
                 System.out.println("OLD DATA:");
-                oldMelon.show();
+                oldShip.show();
 
-                melonArray[i] = newMelon;
+                shipArray[i] = newShip;
 
                 System.out.println("NEW DATA:");
-                newMelon.show();
+                newShip.show();
 
                 System.out.println("\n-------------------------------\n");
 
