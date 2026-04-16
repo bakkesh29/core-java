@@ -44,7 +44,7 @@ class CricketStore {
     void update(Cricket oldPlayer, Cricket newPlayer) {
 
         if (oldPlayer == null && newPlayer == null) {
-            System.out.println("Update failed: objects cannot be null");
+            System.out.println("Update failed: cannot be null");
             return;
         }
 
