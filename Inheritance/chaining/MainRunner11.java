@@ -1,6 +1,6 @@
 class MainRunner11 {
 
-    public static void main(String[] args) {
+    public static void main(String[] values) {
 
         // Creating Child object
         Child c = new Child(50, "Bakkesh");
