@@ -101,5 +101,7 @@ example :
         s1.display();
     }
 }
+
+
 7. this keyword in java 
-this keyword is used to reinit the variables inside the constructors
+this keyword is used to re-init the variables inside the constructors
