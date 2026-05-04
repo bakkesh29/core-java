@@ -86,6 +86,9 @@ example :
         //also we can use by this key word hwere
         this. screws;
     }
+
+    example 2:
+    
     class Student {
     String name;
     Student() {
