@@ -1,0 +1,71 @@
+java.lang Package in Java (JDK 8)------------
+ java.lang is a default package in Java.
+ It is automatically imported in every Java program.
+ So, you don’t need to write import java.lang.*;
+
+
+Main Features---------------------
+Contains core classes required for Java programs.
+Provides basic functionality like:
+Data types
+Math operations
+String handling
+System operations
+
+
+
+Important Classes in java.lang----------------
+Object – Parent of all classes
+String – Used to store text
+Math – Mathematical functions
+System – Standard input/output
+Integer, Double, etc. – Wrapper classes
+Thread – Multithreading
+Exception – Error handling
+StringBuilder – Mutable strings
+Class – Represents class info
+Runtime – Runtime environment
+Process – Process execution
+Throwable – Base class for errors
+
+
+
+Getter and Setter Methods in Java------------
+What is Getter Method?
+Used to get (read) the value of a variable.
+It returns the value.
+Syntax:
+public datatype getVariableName() {
+    return variableName;
+}
+
+What is Setter Method?------------------
+Used to set (update) the value of a variable.
+It takes a parameter and assigns value.
+Syntax:
+public void setVariableName(datatype variableName) {
+    this.variableName = variableName;
+}
+Example Program
+class Student {
+    private String name;
+
+    // Setter
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter
+    public String getName() {
+        return name;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.setName("Bakkesh");   // set value
+        System.out.println(s.getName()); // get value
+    }
+}
