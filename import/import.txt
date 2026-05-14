@@ -1,0 +1,112 @@
+1. Normal Import Statement
+
+Used to import a specific class from a package.
+
+Syntax:
+import packageName.ClassName;
+
+Example:
+import java.util.Scanner;
+
+Explanation:
+- java.util → package
+- Scanner → class
+
+Now you can directly use:
+Scanner sc = new Scanner(System.in);
+
+Without import:
+java.util.Scanner sc = new java.util.Scanner(System.in);
+
+
+--------------------------------------------------
+
+2. Wildcard Import (*)
+
+Used to import all classes from a package.
+
+Syntax:
+import packageName.*;
+
+Example:
+import java.util.*;
+
+Explanation:
+This imports all classes inside java.util package like:
+- Scanner
+- ArrayList
+- HashMap
+- Random
+
+Example:
+ArrayList<String> list = new ArrayList<>();
+Scanner sc = new Scanner(System.in);
+
+Note:
+It does NOT import sub-packages.
+
+
+--------------------------------------------------
+
+3. Static Import
+
+Used to import static members (variables/methods) of a class directly.
+
+Syntax:
+import static packageName.ClassName.member;
+
+Example:
+import static java.lang.Math.sqrt;
+
+Usage:
+System.out.println(sqrt(25));
+
+Without static import:
+System.out.println(Math.sqrt(25));
+
+
+--------------------------------------------------
+
+4. Static Wildcard Import
+
+Imports all static members of a class.
+
+Syntax:
+import static packageName.ClassName.*;
+
+Example:
+import static java.lang.Math.*;
+
+Usage:
+System.out.println(sqrt(16));
+System.out.println(pow(2,3));
+
+Without import:
+Math.sqrt(16);
+Math.pow(2,3);
+
+
+--------------------------------------------------
+
+5. Inline Fully Qualified Usage
+
+Instead of importing, you directly use the full package path.
+
+Example:
+java.util.Scanner sc = new java.util.Scanner(System.in);
+
+Explanation:
+No import statement needed.
+
+
+--------------------------------------------------
+
+Quick Comparison Table
+
+| Type                  | Example                               | Purpose                      |
+|-----------------------|---------------------------------------|------------------------------|
+| Normal Import         | import java.util.Scanner;             | Import one class             |
+| Wildcard Import       | import java.util.*;                   | Import all classes           |
+| Static Import         | import static java.lang.Math.sqrt;    | Import one static member     |
+| Static Wildcard       | import static java.lang.Math.*;       | Import all static members    |
+| Inline Usage          | java.util.Scanner                     | No import needed             |
