@@ -6,6 +6,7 @@ public class Typecasting {
 
         double d;
         d=c;
+        System.out.println(d);
         System.out.println("d");
         System.out.println(c);
 
