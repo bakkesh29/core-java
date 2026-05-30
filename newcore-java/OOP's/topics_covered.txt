@@ -1,0 +1,15 @@
+OOPS concepts
+
+classes and objects 
+jvm and areas 
+instance variable vs local variable 
+method overloading 
+wrapper classes
+encapsulation 
+this keyword
+constructor in java
+static keyword 
+class loading
+inheritance
+package and acess specifiers
+polymorphism
