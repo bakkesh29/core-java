@@ -1,5 +1,3 @@
-import javax.xml.stream.events.StartDocument;
-
 class Student{
     int age;
     String name;
@@ -18,6 +16,8 @@ class Student{
 
 public class Demo1 {
     public static void main(String[] values) {
+        //instation of a class
+        //student object or student instance both are same
         Student s =new Student();
         s.Studying();
         s.Running();
