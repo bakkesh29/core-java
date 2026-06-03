@@ -1,0 +1,97 @@
+JAVA PACKAGE TOPICS
+
+Introduction to Packages in Java
+Meaning of package
+Need of package
+Advantages of package
+Types of Packages
+Built-in package
+User-defined package
+Built-in Packages in Java
+java.lang
+java.util
+java.io
+java.net
+java.sql
+java.awt
+User-defined Package
+Creating package
+Syntax of package
+Example program
+Import Statement
+import package.classname;
+import package.*;
+Access Modifiers in Packages
+public
+private
+protected
+default
+Subpackages in Java
+Creating subpackages
+Example
+Static Import
+import static
+Advantages
+Package Naming Conventions
+Naming rules
+Reverse domain naming
+Advantages of Packages
+Code reusability
+Security
+Avoid naming conflicts
+
+OTHER JAVA THEORY TOPICS
+
+Class and Object
+Constructor
+Types of Constructor
+Method Overloading
+Method Overriding
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+Interface
+Abstract Class
+Exception Handling
+Multithreading
+String Handling
+Arrays in Java
+Collections Framework
+File Handling
+JDBC
+Lambda Expressions
+Streams API
+
+IMPORTANT JAVA PACKAGES
+
+java.lang
+String
+System
+Math
+Object
+Wrapper classes
+java.util
+Scanner
+ArrayList
+HashMap
+Date
+Collections
+java.io
+File
+FileReader
+BufferedReader
+InputStream
+OutputStream
+java.sql
+Connection
+Statement
+ResultSet
+java.net
+URL
+Socket
+java.awt
+GUI components
+Button
+Frame
+Label

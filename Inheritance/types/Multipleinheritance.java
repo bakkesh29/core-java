@@ -1,0 +1,17 @@
+interface Printable {
+    void print();
+}
+
+interface Scannable {
+    void scan();
+}
+
+class Printer implements Printable, Scannable {
+    public void print() {
+        System.out.println("Printing");
+    }
+
+    public void scan() {
+        System.out.println("Scanning");
+    }
+}

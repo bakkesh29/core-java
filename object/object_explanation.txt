@@ -1,0 +1,70 @@
+OBJECT IN JAVA
+An object is an instance of a class.
+It represents a real-world entity and contains:
+
+State (variables)
+Behavior (methods)
+
+Example:
+class Car {
+String color;
+void drive() {
+System.out.println("Car is moving");
+}
+}
+
+Car c1 = new Car();
+
+METHODS OF OBJECT CLASS
+
+The Object class is the parent of all classes in Java.
+It provides the following methods:
+
+toString() – returns string representation of object
+equals(Object obj) – compares two objects
+hashCode() – returns hash value
+getClass() – returns class of object
+clone() – creates a copy of object
+finalize() – called before garbage collection
+
+
+wait() – makes thread wait
+wait(long time) – waits for given time
+wait(long time, int nanos) – waits with nanoseconds
+notify() – wakes one waiting thread
+notifyAll() – wakes all waiting threads
+
+(Note: wait() methods are overloaded, so sometimes counted as 12 methods)
+
+GETTER AND SETTER METHODS
+
+Getter and Setter methods are used to access and update private variables.
+
+Getter Method:
+Used to get the value of a variable
+
+public String getName() {
+return name;
+}
+
+Setter Method:
+Used to set or update the value of a variable
+
+public void setName(String name) {
+this.name = name;
+}
+
+Example:
+
+class Student {
+private String name;
+
+public String getName() {  
+    return name;  
+}  
+
+public void setName(String name) {  
+    this.name = name;  
+}  
+
+}

@@ -1,0 +1,126 @@
+test  4th-May
+
+1. class:
+class is a keyword 
+class cointains 4 principles
+inheritance, abstraction,encapsulation
+and consits of 2 members : methods and variables
+
+2 . creating a class Car and displaying its properties:
+
+class Car{
+    int doors;
+    int screws;
+    int displaying_console;
+    boolean power_staring;
+
+    void Car(int doors, int screws,int displaying_console,boolean power_stearing){
+        doors = this.doors;
+        screws = this.screws;
+        displaying_consolethis =this.displaying_console;
+        power_stearing =this.power_stearing;
+    }
+
+
+    public Static void main(String [] values){
+        Car n1 = new Car(1,4,1,true);
+        System.out.println("printing car properties " + n1);       
+    }
+
+}
+
+3. method :
+a set of instruction that are predefined or user defined 
+predefined : system , main method
+user defined :  public void car
+
+4. method overloading :
+when the methods have the similar type of aruguments , parameters calling again and again
+example :
+    void Car(){
+    }
+    void Car (int door){
+    }
+    void Car (int door,int screws){
+    }
+    void Car (int displaying_console, int power_staring){
+    }
+
+
+5. Constructor
+    has the same name as the class
+    no return type (not even void)
+    used to initialize variables 
+    we have default constructor calling super chaining and 
+    we can use this keyword also inside the constructor
+    *no - aruguments Constructor - default constructor
+    *with parameterised constructor 
+    *defaultconstructor, parameterised constructor
+
+    example:
+    Car(){
+
+    }
+    Car(int screws){
+        //default
+        super();
+        //also we can use by this key word
+        this. screws;
+    }
+    
+    
+
+
+6. types of constructors
+
+ *no - aruguments Constructor
+ *with parameterised constructor
+
+    example:
+    Car(){
+
+    }
+    Car(int screws){
+        //default
+        super();
+        //also we can use by this key word hwere
+        this. screws;
+    }
+
+    example 2:
+    
+    class Student {
+    String name;
+    Student() {
+        name = "Bakkesh";
+    }
+
+    void display() {
+        System.out.println(name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.display();
+    }
+}
+
+
+7. this keyword in java 
+this keyword is used to re-init the variables inside the constructors
+
+9. box pattern in java
+class BoxPattern1 {
+    public static void main(String[] args) {
+        int n = 5;
+        for (int i = 1; i <= n; i++) {      
+            for (int j = 1; j <= n; j++) {  
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+

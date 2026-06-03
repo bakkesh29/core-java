@@ -1,0 +1,265 @@
+1. GETTING STARTED 
+what is java 
+java is a high level programming language and it is used to build the programms
+
+java characterstics 
+ADHAR MOS
+archecturial neural
+distrubuted , dynamic
+high performance 
+portable
+robust
+multithreaded
+object oriented 
+simple and secure
+
+
+how java work
+
+first all java source code are written in the txt file with extension as .java
+by using javac compiler it creats the byte code  its in the form of 0 and 1
+by using jvm through .class file it will interpret the run the file
+
+The Java Platform
+
+platform - a harware or a software which program runs
+like example of software : windows and mac ,linux , and solaris os
+most platforms are having harderware underlyinf software
+java changes in differ forms
+java runs above the harware devices 
+
+java has two component
+1. java application programming interface
+2. java virtual machine 
+
+jvm is based on ported hardwared based programs 
+
+diagram 
+        +----------------------+
+        |     MyProgram.java   |
+        +----------------------+
+        |         API          |.      }
+        |                      |          }  Java Platform
+        +----------------------+
+        | Java Virtual Machine |
+        +----------------------+
+        | Hardware-Based       |
+        | Platform             |
+        +----------------------+
+                
+
+
+what can java technology can do?
+development tools :javac-complier,javadoc-document , javaarch -java archive file ,java. launcher
+Api- application programming interface
+deployment -jdk gives java web start sofware and java plug in software for deploying end users
+java interface toolkits - java fx ,swing ,java 2d tool kits give graphial user interfaces
+intergration libraries - libraries are created by using classes and interfaces ; these libraries are knowns as the packages 
+
+how java will change my life ???? tommoroe
+
+
+creating a first application
+pre requsities 
+1. jdk
+2. text editor
+ creating it 
+ creating a source file 
+ compile source file into .class file
+ run the program 
+
+
+ exaple:
+ class HelloWorldApp{
+    public static void main (string [] args){
+        System.out println("Hello world ");
+    }
+ }
+
+ in this there are three typea 
+ comments , class , method
+
+ comment :
+ //->single line
+ /* */ -> multi line
+ /** */ -> document type
+
+class : it is a cointainer (think like a box), it contains methods and variables 
+
+method : it is the entr pont of the program 
+
+flow of the java  how program runs 
+1. jvm starts the program
+2. finds the main () method
+3. execute the code inside it 
+4. prints the output
+
+
+2. OOPs concepts
+
+this shows the introduce aboute object, classes ,inheritance,interfaces and packages
+object are defined by two types state and behavior 
+eg: dog , desk , tv , bag
+dog has a state:name , color , hungry,breed
+behavior:barking, running, catching
+
+radio, study lamp
+
+state : fields(variables in another programmming languages )
+behavior : methods(functions  '''' )
+
+real worldeg : water can 
+state : cylindrical, color , tap style
+behavior:contains water , leaks the water
+
+
+example : bycycle 
+diagram
+                 (18 mph)
+                    ↑
+            -----------------
+         /                     \
+       /         Change         \
+      |          gears           |   → (90 rpm)
+      |                           |
+      |    ●      ★      ■        |
+      |                           |
+      |   Brake        Change     |
+      |                 cadence   |
+       \                         /
+         \                     /
+            -----------------
+                    ↓
+               (5th gear)
+
+State means the data (values) of an object
+
+in java stored in variables
+class Car {
+    String brand = "BMW";
+    int speed = 120;
+}
+Methods define what an object can do  
+Written as functions inside class          
+class Car {
+    void drive() {
+        System.out.println("Car is moving");
+    }
+}
+drive() is a method (action)
+
+class Car{
+    string brand = "bmw";
+    int speed = 120;
+    void driver(){
+        System.out.println(brand+"this brand car is running in this spped "+speed);
+    }
+    public static void main (string .. values){
+        car c = new driver();
+        c.drive();
+    }
+}
+State = what object has
+Behavior = what object does
+
+3 ways to initilize a variables
+* direct , by using constructor, method
+
+how to declare a method
+returnType methodName(parameters) {
+    // code
+}
+
+
+classes
+
+
+A class is a blueprint (design) used to create objects
+example:
+Blueprint → Class
+Real bicycle → Object
+A class = plan
+Object = real thing created from that plan
+bicycle is an instance of the class of objects known as bicycles.
+class bycycle
+
+
+Inheritance
+
+
+Bicycle now becomes the superclass of MountainBike, RoadBike, and TandemBike. 
+In the Java programming language, each class is allowed to have one direct superclass, 
+and each superclass has the potential for an unlimited number of subclasses:
+
+
+   Bicycle(supper class)
+    |
+    |
+    |(Sub classes)
+    |->MountainBike
+    |
+    |->RoadBike
+    |
+    |->StreetBike
+
+The syntax for creating a subclass is simple. 
+At the beginning of your class declaration, 
+use the extends keyword, followed by the name of the class to inherit from:
+
+class MountainBike extends Bicycle {
+
+    // new fields and methods defining 
+    // a mountain bike would go here
+
+}
+
+
+Interface
+zinterface Bicycle {
+
+    //  wheel revolutions per minute
+    void changeCadence(int newValue);
+
+    void changeGear(int newValue);
+
+    void speedUp(int increment);
+
+    void applyBrakes(int decrement);
+}
+
+and runner
+lass ACMEBicycle implements Bicycle {
+
+    int cadence = 0;
+    int speed = 0;
+    int gear = 1;
+
+   // The compiler will now require that methods
+   // changeCadence, changeGear, speedUp, and applyBrakes
+   // all be implemented. Compilation will fail if those
+   // methods are missing from this class.
+
+    void changeCadence(int newValue) {
+         cadence = newValue;
+    }
+
+    void changeGear(int newValue) {
+         gear = newValue;
+    }
+
+    void speedUp(int increment) {
+         speed = speed + increment;   
+    }
+
+    void applyBrakes(int decrement) {
+         speed = speed - decrement;
+    }
+
+    void printStates() {
+         System.out.println("cadence:" +
+             cadence + " speed:" + 
+             speed + " gear:" + gear);
+    }
+}
+
+
