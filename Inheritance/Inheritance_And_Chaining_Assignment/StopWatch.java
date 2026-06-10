@@ -1,4 +1,10 @@
 class StopWatch {
+    String brand;
+
+    StopWatch(String brand) {
+        this.brand = brand;
+    }
+
     void start() {
         System.out.println("StopWatch start");
     }

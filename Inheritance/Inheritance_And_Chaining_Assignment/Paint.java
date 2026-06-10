@@ -1,4 +1,10 @@
 class Paint {
+    String color;
+
+    Paint(String color) {
+        this.color = color;
+    }
+
     void start() {
         System.out.println("Paint start");
     }
