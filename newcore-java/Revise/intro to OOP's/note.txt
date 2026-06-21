@@ -1,0 +1,1 @@
+A Class is a blue print that has  properties and members that can have
