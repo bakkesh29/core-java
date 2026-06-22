@@ -3,5 +3,6 @@ public class Students {
     int [] numbers = new int[5];
 
     // store 5 names 
+    String[] names = new String[5];
     
 }
