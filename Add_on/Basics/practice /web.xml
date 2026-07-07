@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>RecruiterServlet</servlet-name>
+    <servlet-class>RecruiterServlet</servlet-class>
+
+    <init-param>
+        <param-name>Email</param-name>
+        <param-value>recruiter@jobportal.com</param-value>
+    </init-param>
+</servlet>
