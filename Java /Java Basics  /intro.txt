@@ -1,0 +1,51 @@
+Block 1: Java
+4.1 – 4.10 → Java Fundamentals 
+
+6.1 – 6.13 → OOPs 
+
+8.1 – 8.4 → Interfaces & Lambda Expressions 
+9.1 – 9.4 → Exception Handling  
+10.1 – 10.3 → Arrays  
+11.1 – 11.3 → Strings  
+12.1 – 12.6 → Collections API 
+
+14.1 → Enum
+15.1 – 15.6 → Multithreading   
+16.1 – 16.2 → Stream API 
+
+
+17.1 – 17.20 → Servlets
+18.1 – 18.30 → Hibernate
+
+19.1 – 19.7 → Spring Core & Spring Boot
+20.1 – 20.8 → Spring Data JPA
+21.2 – 21.8 → Spring Web MVC
+22.1 – 22.12 → Spring REST
+23.1 – 23.5 → Spring Security
+24.1 → Spring AOP
+25.1 – 25.11 → Microservices
+
+
+Block 2: Recorded Included
+5.1 – 5.23 → Git 
+7.1 – 7.30 → DSA 
+JUnit  - testing for the applications
+SQL mysql - for data base connectivity
+Docker - build the contanizations
+Cloud  - for the deployemnt 
+Jenkins - build the pipe lines 
+JDBC 
+
+Block 3: Missing
+26.1 – 26.16 → Cloud
+27.x → SQL
+JDBC → 20 Lessons
+Input / Output (I/O) → 12 Lessons
+Maven → 7 Lessons
+Docker → 17 Lessons
+Jenkins → 13 Lessons
+
+
+how to code 
+1. writing a clean code is one aspect 
+2. giving the solution for the problem is one ascpect
